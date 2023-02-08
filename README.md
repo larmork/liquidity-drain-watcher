@@ -1,13 +1,13 @@
-# Large Tether Transfer Agent
+# Suspicious swap approvals Agent
 
 ## Description
 
-This agent detects transactions with large Tether transfers
+This agent detects suspicious amount of approvals from one adress per hour, wich can be a result of attack on DEX or DEX Aggregator
 
 ## Supported Chains
 
 - Ethereum
-- List any other chains this agent can support e.g. BSC
+- BSC
 
 ## Alerts
 
