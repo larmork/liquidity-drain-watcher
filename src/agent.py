@@ -14,6 +14,7 @@ def handle_transaction(transaction_event):
     global findings_count
     if findings_count >= 5:
         return findings
+        
 
 
     receipt = get_transaction_receipt(transaction_event.hash)
