@@ -1,5 +1,8 @@
 node_modules
 dist
+coverage
+.env
+.DS_Store
 forta.config.json
 __pycache__
 .pytest_cache
