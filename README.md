@@ -18,7 +18,7 @@ This Forta agent monitors for suspicious token approval patterns that might indi
 
 ## Alerts
 
-- FORTA-1
+- HIGH-FREQUENCY-TOKEN-APPROVALS
   - Fired when a token contract has suspicious number of approvals within an hour
   - Severity is dynamic based on the number of approvals:
     - HIGH: > 25 approvals per hour

@@ -93,7 +93,7 @@ describe("ApprovalMonitor service", () => {
         Finding.fromObject({
           name: "Suspicious amount of token approvals",
           description: "High number of token approvals detected: 10",
-          alertId: "FORTA-1",
+          alertId: "HIGH-FREQUENCY-TOKEN-APPROVALS",
           type: FindingType.Suspicious,
           severity: FindingSeverity.Low,
           metadata: {

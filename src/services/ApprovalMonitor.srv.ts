@@ -56,7 +56,7 @@ export class ApprovalMonitorSrv {
           Finding.fromObject({
             name: "Suspicious amount of token approvals",
             description: `High number of token approvals detected: ${this.approvalCounts[tokenContract]}`,
-            alertId: "FORTA-1",
+            alertId: "HIGH-FREQUENCY-TOKEN-APPROVALS",
             type: FindingType.Suspicious,
             severity: this.getSeverity(this.approvalCounts[tokenContract]),
             metadata: {
